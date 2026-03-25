@@ -53,6 +53,11 @@ class Library {
 
     // TODO: Implement in branch feature-search-books
     public boolean searchBookByTitle(String title) {
+        for (Book book : books) {
+            if (book.getTitle().equalsIgnoreCase(title)){
+                return true;
+            }
+        }
         return false;
     }
 
