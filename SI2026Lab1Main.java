@@ -125,6 +125,7 @@ public class SI2026Lab1Main {
         library.addBook(new Book("1984", "George Orwell", "Dystopian"));
         System.out.println("Search for '1984': " + library.searchBookByTitle("1984"));
         System.out.println("Search for 'Unknown': " + library.searchBookByTitle("Unknown"));
+        System.out.println("Git test line");
 
         System.out.println("Library initialized.");
     }
