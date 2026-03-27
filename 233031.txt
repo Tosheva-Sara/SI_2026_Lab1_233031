@@ -1,5 +1,5 @@
 
-
+ДЕЛ 1
 1.
 mkdir SI_2026_Lab1_233031
 cd SI_2026_Lab1_233031
@@ -102,4 +102,17 @@ git log --oneline --graph --all > logs.txt
 
  21. 
 type logs.txt
+
+ДЕЛ 2
+
+git clone https://github.com/Tosheva-Sara/SI_2026_Lab1_203043.git
+cd SI_2026_Lab1_203043
+git checkout -b 233031-library-update
+Додавање на 233031.txt со име и e-mail
+git add 233031.txt
+ Додадов краток коментар во Java датотека
+git add SI2026Lab1Main.java
+git commit -m "Add fork contribution"
+git push origin 233031-library-update
+Креирав Pull Request на GitHub
 
